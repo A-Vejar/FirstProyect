@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    xmlns:tools2="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="4dp"
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="@android:dimen/notification_large_icon_width"
+            android:layout_height="71dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@drawable/logo_ucn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/myriadpro"
+            android:paddingLeft="5dp"
+            android:text="Full Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/myriadpro"
+            android:paddingLeft="10dp"
+            android:text="Charge" />
+
+        <TextView
+            android:id="@+id/tv_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/myriadpro"
+            android:paddingLeft="10dp"
+            android:text="Unit" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/myriadpro"
+            android:paddingLeft="10dp"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/myriadpro"
+            android:paddingLeft="10dp"
+            android:text="Phone"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_office"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/myriadpro"
+            android:paddingLeft="10dp"
+            android:text="Office"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</LinearLayout>
